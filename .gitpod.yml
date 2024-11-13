@@ -1,5 +1,4 @@
-image:
-  file: .gitpod.dockerfile
+image: gitpod/workspace-postgres
 tasks:
   - init: . ${GITPOD_REPO_ROOT}/.vscode/init_tasks.sh
     command: /home/gitpod/.pg_ctl/bin/pg_start > /dev/null
@@ -13,4 +12,5 @@ vscode:
     - matt-rudge.auto-open-preview-panel
     - ms-toolsai.jupyter
     - ms-toolsai.jupyter-keymap
+    - ms-toolsai.jupyter-renderers
     - ms-toolsai.jupyter-renderers
