@@ -53,9 +53,18 @@ background-color:white;
     padding: 5% 7%;
 
 }
+/* buttons */
 /* aligns newsletter button */
 button.btn.btn-primary {
     margin-left:35%;
+}
+.custom-button {
+    background-color: #1f7798;
+    border: #1f7798;
+}
+.custom-button:hover {
+    background-color: #1d6d8a;
+    border:1d6d8a;
 }
 
 /* use bootstrap breakpoints for xl screens */
