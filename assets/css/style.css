@@ -21,8 +21,22 @@ h1, h2 {
 #about {
 background-color:white;
 /* portfolio */
+}
 #portfolio {
     background-color:#dbdcde;
+}
+#portfolio .card-title {
+    color:#1f7798;
+    font-size:1.2rem;
+}
+#portfolio .btn:hover {
+    background-color: #1f7798;
+}
+#portfolio .btn-outline-secondary:hover{
+    background-color: #1f7798;
+}
+#portfolio .card-text {
+    min-height:120px;
 }
 #contact {
     background-color: white;
@@ -35,4 +49,16 @@ background-color:white;
     min-height: 500px;
     padding: 5% 7%;
 
+}
+/* aligns newsletter button */
+button.btn.btn-primary {
+    margin-left:35%;
+}
+
+/* use bootstrap breakpoints for xl screens */
+@media screen and (min-width: 1200px) {
+    /* fixes all portfolio cards being two big on large screens */
+    #portfolio .card-text {
+        min-height: auto;
+    }
 }
